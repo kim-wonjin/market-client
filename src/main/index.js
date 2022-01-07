@@ -17,6 +17,7 @@ function MainPage() {
       });
   }, []);
 
+  
   return (
     <div>
       <div id="header">
@@ -34,10 +35,7 @@ function MainPage() {
             return (
               <div className="product-card">
                 <div>
-                  <img
-                    className="product-img"
-                    src={product.imageUrl}
-                  />
+                  <img className="product-img" src={product.imageUrl} />
                 </div>
                 <div className="product-contents">
                   <span className="product-name">{product.name}</span>
