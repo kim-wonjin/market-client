@@ -7,6 +7,12 @@ import { Switch, Route } from "react-router-dom";
 function App() {
   return (
     <div>
+       <div id="header">
+        <div id="header-area">
+          <img src="/images/icons/logo.png"/>
+        </div>
+      </div>
+      <div id="body">
       <Switch>
         <Route exact={true} path="/">
           <MainPageComponent />
@@ -18,6 +24,8 @@ function App() {
           <UploadPageComponent />
         </Route>
       </Switch>
+      </div>
+      <div id="footer"></div>
     </div>
   );
 }

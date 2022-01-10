@@ -5,3 +5,18 @@ body,
   height: 100%;
 }
 #body{min-height: 100vh;}
+
+#header {
+  height: 64px;
+  border-bottom: 1px solid gray;
+}
+#body {
+  height: 100vh;
+  width: 1024px;
+  margin: 0 auto;
+  padding-bottom: 24px;
+}
+#footer {
+  height: 200px;
+  background-color: rgb(230, 230, 230);
+}
