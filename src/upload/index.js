@@ -29,7 +29,7 @@ function UploadPage() {
             placeholder="이름을 입력하시오"
           />
         </Form.Item>
-        <Divider />
+        <Divider/>
         <Form.Item
           label={<div className="upload-label">상품 이름</div>}
           name="name"
@@ -41,7 +41,7 @@ function UploadPage() {
             placeholder="상품이름을 입력하시오"
           />
         </Form.Item>
-        <Divider />
+        <Divider/>
         <Form.Item
           label={<div className="upload-label">상품 가격</div>}
           name="price"
@@ -70,7 +70,7 @@ function UploadPage() {
         </Form.Item>
         <Form.Item>
           <Button id="submit-button" size="large" htmlType="submit">
-            상품 등록하기
+            상품 등록하기  
           </Button>
         </Form.Item>
       </Form>
