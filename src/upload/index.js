@@ -26,7 +26,7 @@ function UploadPage() {
           <Input
             className="upload-name"
             size="large"
-            placeholder="이름을 입력하시오"
+            placeholder="이름을 입력하세요"
           />
         </Form.Item>
         <Divider/>
@@ -38,7 +38,7 @@ function UploadPage() {
           <Input
             className="upload-name"
             size="large"
-            placeholder="상품이름을 입력하시오"
+            placeholder="상품이름을 입력하세요"
           />
         </Form.Item>
         <Divider/>
@@ -51,7 +51,7 @@ function UploadPage() {
             defaultValue={0}
             className="upload-price"
             size="large"
-            placeholder="상품가격을 입력하시오"
+            placeholder="상품가격을 입력하세요"
           />
         </Form.Item>
         <Divider />
